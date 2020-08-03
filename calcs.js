@@ -78,16 +78,19 @@
 
 //write a program that print 1-30 Muliples of 3 print "fuzz" Muiliples of 5 
 
-for (var i=1; i<=30; i++){
-    if (i % 15 ==0) {
-        console.log("FuzzBuzz");
-    }
+// for (var i=1; i<=30; i++){
+//     if (i % 15 ==0) {
+//         console.log("FuzzBuzz");
+//     }
     
-    else if (i % 3 ==0){
-        console.log("Fuzz")
-    } else if (i % 5 == 0){
-        console.log("Buzz")
-    }else{
-        console.log(i);
-    }
+//     else if (i % 3 ==0){
+//         console.log("Fuzz")
+//     } else if (i % 5 == 0){
+//         console.log("Buzz")
+//     }else{
+//         console.log(i);
+//     }
+// }<
+for (var i=30; i>=1; i-=1){
+    console.log(i);
 }
