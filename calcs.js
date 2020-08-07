@@ -15,6 +15,9 @@
 // }
 
 
+
+
+
 // var firstName = "Jameka";
 
 // var lastName = "Harmon";
@@ -90,7 +93,50 @@
 //     }else{
 //         console.log(i);
 //     }
-// }<
-for (var i=30; i>=1; i-=1){
-    console.log(i);
-}
+// // }<
+// for (var i=30; i>=1; i-=1){
+//     console.log(i);
+// }
+
+
+
+// var arr = [99, "whoa now", false, undefined];
+
+// console.log(arr.toString());
+
+// console.log(arr[2]);
+
+// arr[3]=249;
+
+// console.log(arr);
+// console.log(arr.toString());
+
+
+
+// console.log(arry.length());
+
+
+// console.log(arry.pop());
+
+
+// console.log(arry.push());
+
+
+// console.log(arry.shift());
+
+
+// console.log(arry.unshift());
+
+
+// console.log(arry.splice());
+
+
+
+var artist = ["Andy Warhol" "Pablo Picasso" "Vincent van Gogh" "Leonardo da Vinci" "Michelangelo"]
+// console.log(arr.toString(arr)); 
+// // console.log(artist.pop());
+// console.log(arr.toString(arr.pop));
+
+ for(var i = 0; i< artist.length; i++){
+console.log(artist);
+ }
