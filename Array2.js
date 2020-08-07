@@ -1,13 +1,26 @@
-var color ("red" "yellow" "green" "blue" "pink"){
-    console.log()
+var color = ["red", "yellow", "green", "blue", "pink"];
+    console.log(color[0]);
+    console.log(color[2]);
+
+var fourthColor = color[3];
+
+color[color.length-1] = "ultraviolet"
+
+
+console.log(color.push("gold"));
+
+color.unshift("purple");
+// console.log(color);
+
+// console.log(colors.length);
+
+// console.log(colors.pop());
+
+
+
+for (var i=0; i<console.length; i++){
+    console.log(i + ", " +color[i]);
 }
-var str1:"red";
-var str2:"yellow";
-var str3:"green";
-var str4:"blue";
-var str5:"pink";
-
-
-
-var fourthColor //equals to the 4th color in the list
+var lastColor = color [color.length -1];
+console.log(lastColor);
 
