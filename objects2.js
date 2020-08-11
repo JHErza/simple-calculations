@@ -9,31 +9,51 @@
 
 // console.log(myPenguin.sentence);
 
+// myPenguin.canfly=false;
+
+
+
 // for (x in penguin) {
 //     var txt = "";
 //     txt += penguin[x] + "";
 //     console.log(txt);
 // }
-var penguinSideEffects = {
-name:" Penguin McPenuinFace"
-canFly:false,
-chirp: "CHIRP CHIRP! Is this what pengunis sound like?",
-sayHello:"this",
-
-
-}
-console.log(sayHello)
-
-if (i = 0; i>=20; i--){
-console.log(i)
-} else {
-
+var i=0; i<2; i++
+if (i==0) {
+    console.log("can fly")
 }
 
 
 
-for ()
+// var penguinSideEffects = {
+// name:" Penguin McPenuinFace"
+// chirp: "CHIRP CHIRP! Is this what pengunis sound like?",
+// sayHello:function(){
+//     console.log(this.name + " " + this.chirp);
+// }
+// penguinSideEffects.canfly=false;
 
+
+// }
+// console.log(sayHello)
+
+var i = 0; i<=2; i--
+if (i==0){
+console.log("I can fly")
+} else if (i==1){
+
+}console.log("no flying for me")
+
+
+
+for (var i=0; i<name; i++)
+var fly()={
+    var text ="";
+    var x;
+    for (x in person) {
+        text += person[x] + "";
+    }
+}
 
 
 
